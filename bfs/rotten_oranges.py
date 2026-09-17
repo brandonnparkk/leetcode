@@ -13,7 +13,8 @@ class Solution:
                 elif grid[r][c] == 1:
                     fresh_oranges += 1
         
-        # mark the round / level
+        # this is the placeholder used to show the end of the 'minute'
+        # i.e. [rotten1, rotten2, rotten3, (-1,-1), newlyRotten1, newlyRotten2, (-1,-1), ...]
         queue.append((-1, -1))
 
         # Step 2. start the rotting process via BFS
