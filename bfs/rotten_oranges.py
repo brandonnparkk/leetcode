@@ -22,11 +22,10 @@ class Solution:
         directions = [(-1, 0), (0, 1), (1, 0), (0, -1)]
         while queue:
             row, col = queue.popleft()
+            # if it's end of the round / minute
             if row == -1:
-                # if the queue has no rotten oranges,
-                # we need to output -1
                 minutes_elapsed += 1
-                # avoid endless loop
+                # avoid endless loop, in case
                 if queue:
                     queue.append((-1, -1))
             else:
