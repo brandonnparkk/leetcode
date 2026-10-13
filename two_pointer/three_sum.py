@@ -15,10 +15,10 @@ class Solution:
                     rp -= 1
                 else:
                     output.append([nums[i], nums[lp], nums[rp]])
-                while lp < rp and nums[lp] == nums[lp + 1]:
+                    while lp < rp and nums[lp] == nums[lp + 1]:
+                        lp += 1
+                    while lp < rp and nums[rp] == nums[rp - 1]:
+                        rp -= 1
                     lp += 1
-                while lp < rp and nums[rp] == nums[rp - 1]:
                     rp -= 1
-                lp += 1
-                rp -= 1
         return output
