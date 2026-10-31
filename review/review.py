@@ -9,6 +9,7 @@
 
 # [4] can_attend_meetings: https://leetcode.com/problems/meeting-rooms/description/
 # [4] k_closest_to_origin: https://leetcode.com/problems/k-closest-points-to-origin/description/
+# [4] diameter_of_binary_tree: https://jamesperalta.com/code-editor/practice/543?origin=peralta75&returnTo=%2Fperalta75&returnLabel=Back+to+Peralta+75
 
 # [3] min_binary_tree: https://leetcode.com/problems/minimum-depth-of-binary-tree/description/
 # [3] nearest_exit: https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/description/?envType=study-plan-v2&envId=leetcode-75
