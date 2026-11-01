@@ -45,7 +45,7 @@ def invert_tree(root: TreeNode) -> TreeNode:
         # swap left and right
         # if we are going with idea for implementation,
         # then, the calculation should be done here.
-        node.left, node.right = dfs(node.right), dfs(node.left)
+        node.left, node.right = node.right, node.left
         dfs(node.left)
         dfs(node.right)
     dfs(root)
