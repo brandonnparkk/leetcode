@@ -34,7 +34,7 @@ def count_distinct_islands(grid: List[List[int]]) -> int:
             # CHANGE 2 (memory): store one int per shape, not the whole set.
             # Tradeoff: a hash collision could undercount. Very unlikely with
             # at most 1,250 islands in a 50x50 grid.
-            shapes.add(hash(frozenset(cells)))
+            shapes.add(tuple(cells))
 
     return len(shapes)
 
