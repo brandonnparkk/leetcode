@@ -21,3 +21,4 @@ class Solution:
 
         # what does backtracking use, some sort of start index?
         # backtracking, you use sorting, so we sort each of the bracket segments
+        
